@@ -1,0 +1,22 @@
+{
+  "name": "fashappen-backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeojoe/fashappen-backend.git",
+  "author": "Jirat Onaree <jirat.onaree@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "express": "^4.15.4",
+    "pg": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
